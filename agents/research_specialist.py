@@ -1,6 +1,9 @@
 import os
+from dotenv import load_dotenv
 from crewai import Agent, LLM
 from crewai_tools import SerperDevTool
+
+load_dotenv()
 
 
 # LLM configurations - Agent specific config
