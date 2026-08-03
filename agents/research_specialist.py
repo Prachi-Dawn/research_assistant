@@ -11,7 +11,7 @@ model = os.getenv("RESEARCH_AGENT_LLM")
 temperature = float(os.getenv("RESEARCH_AGENT_TEMPERATURE"))
 
 llm = LLM(
-    model=model,
+    model="gpt-4o-mini",
     temperature=temperature
 )
 
